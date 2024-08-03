@@ -143,6 +143,11 @@ The ROC curves and AUC values demonstrate that the model performs exceptionally 
 The validation accuracy consistently being higher or very close to the training accuracy is a positive sign of good generalization While The close tracking of validation loss with the training loss further confirms the model's strong generalization performance.
 
 
+                            MODEL COMPARISON
+                            
+![image](https://github.com/user-attachments/assets/09ae5b9a-a975-4e62-8546-95b64d1b5b0e)
+
+
                            Conclusion
                            
 The rice image classification project demonstrates the potential of using advanced machine learning techniques to automate and improve the accuracy of rice type identification. By leveraging convolutional neural networks (CNNs) and image processing technologies, we have developed a robust model capable of distinguishing between various types of rice grains based on their visual characteristics.
