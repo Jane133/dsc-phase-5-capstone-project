@@ -102,6 +102,7 @@ Model: "functional_22"
   Total params: 14,780,997 (259.02)
  Trainable params: 66,309 (259.02 KB)
  Non-trainable params: 14,714,688 (56.13 MB)
+ 
 
 The baseline model architecture comprises a total of 14,780,997 parameters, with all parameters being trainable. The model's size is approximately 250.02 MB. There are no non-trainable parameters in this architecture, showing that all parameters are updated during the training process
 
@@ -121,14 +122,20 @@ The baseline model architecture comprises a total of 14,780,997 parameters, with
 weighted avg       0.98      0.98      0.98     75000
 
 
-Summary:
+
+
+
+                                               Summary:
+                                               
 The classification report indicates a very well-performing model with high precision, recall, and F1-scores for all classes, and an overall accuracy of 98%. The macro and weighted averages confirm that the model’s performance is robust across all classes and that the class distribution doesn't skew the performance metrics significantly.
 
 
 ![image](https://github.com/user-attachments/assets/3208df45-a813-48a8-bb53-a7e2cc567fd0)
+
 Overall, the model performs robustly, accurately identifying the majority of instances across all classes, with only a few notable misclassifications primarily involving Ipsala.
 
 ![image](https://github.com/user-attachments/assets/94358a51-d04f-4eb4-a650-71d7d5526ff2)
+
 The ROC curves and AUC values demonstrate that the model performs exceptionally well for all classes, with nearly perfect classification for Arborio, Ipsala, Karacadag, Basmati and Jasmine (AUC = 1.00).
 
 ![image](https://github.com/user-attachments/assets/6a69702b-a454-49a1-8f23-008796df8b1a)
